@@ -3,8 +3,20 @@
 <title>Redirect</title>
 <meta http-equiv="refresh" content="2; URL=mailto:techsupport@directtechnology.com">
 <meta name="keywords" content="automatic redirection">
+<script>
+function loaded()
+{
+    alert("Beep!");
+    window.setTimeout(CloseMe, 5000);
+}
+
+function CloseMe() 
+{
+    window.close();
+}
+</script>
 </head>
-<body>
+<body onLoad="loaded()">
 If your browser doesn't automatically open an email window within a few seconds, please click the following: 
 <a href="mailto:techsupport@directtechnology.com">
 </body>
