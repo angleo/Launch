@@ -4,13 +4,7 @@
 <meta http-equiv="refresh" content="2; URL=mailto:techsupport@directtechnology.com">
 <meta name="keywords" content="automatic redirection">
 <script type="text/javascript">
-function closeWindow() {
-setTimeout(function() {
-window.close();
-}, 500);
-}
-
-window.onload = closeWindow();
+Page.RegisterStartupScript("CloseBrowser", "window.close();");
 </script>
 </head>
 <body>
