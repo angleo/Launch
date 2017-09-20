@@ -6,17 +6,13 @@
 <script>
 function loaded()
 {
-    window.setTimeout(CloseMe, 500);
+    setTimeout("window.close()", 5000);
 }
 
-function CloseMe() 
-{
-    window.close();
-}
 </script>
 </head>
 <body onLoad="loaded()">
-If your browser doesn't automatically open an email window within a few seconds, please click the following: 
-<a href="mailto:techsupport@directtechnology.com">
+If your browser doesn't automatically open an email window within a few seconds, please click the following link: 
+<a href="mailto:techsupport@directtechnology.com">Email Support</a>
 </body>
 </html>
